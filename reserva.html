@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Venha realizar a viagem dos seus sonhos!</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="#">Pacotes</a></li>
+
+                <li><a href="#">Taxa</a></li>
+
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus consequat tortor nec molestie. Suspendisse potenti. Donec ut pharetra dolor. Vivamus tincidunt fermentum eros, vel vulputate ligula rutrum non. In dignissim vulputate convallis. Proin sodales libero id sodales semper. Mauris ut metus odio.
+    </p>
+    <br><br>
+    </header>
+
+    <section id="Pacotes">
+
+        <h2>Conheça nossos Pacotes</h2>
+
+        <p1>
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tortor at ipsum imperdiet ultrices eu a
+            libero. Donec ut leo sed nibh elementum vestibulum eget eget sem. Vivamus ut risus sit amet turpis dictum
+            mollis malesuada eget enim. Proin justo sapien, pulvinar interdum congue eget, tincidunt sit amet urna.
+            Vivamus augue enim, cursus venenatis nibh sit amet, maximus finibus augue. In et purus augue. Sed sed enim
+            porttitor, venenatis erat nec, pretium orci.
+
+            <br><br>
+
+
+            
+
+
+        </p1>
+        <div class="row">
+            <figure class="col text-center">
+                <figcaption></figcaption>
+
+                    <figure>
+            <img src="/img/cama.jpg" alt="Cama de um hotel">
+            <figure>
+
+            <figcaption></figcaption>
+
+            <figure class="col text-center">
+                <img src="/img/Design sem nome.jpg" alt="foto de uma piscina">
+            <figure>
+                    <figcaption></figcaption>
+
+                    <figure class="col text-center">
+                        <img src="/img/voos.jpg" alt="foto de um aviao">
+                    <figure>
+        </div>
+
+
+       
+            <hr>
+        <section>
+            <h2>Taxas de serviços</h2>
+            <table>
+                <caption>Descrição dos serviços e respectivos valores</caption>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reserva Hotel</td>
+                        <td>R$500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Compra de Passagem</td>
+                        <td>R$1000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Aluguel de carros</td>
+                        <td>R$300,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+        <h2>Orçamento</h2>
+        <form method="GET" action=""></form>
+        <p2>
+
+            Maecenas metus ligula, vulputate fermentum rhoncus eu, elementum vel ex. Proin ac lectus nulla. Quisque
+            congue tristique aliquet. Nulla massa orci, lacinia a hendrerit in, lacinia sed leo. Nullam eu cursus neque.
+            Donec quis augue at ex porttitor ornare eleifend eu justo. Curabitur sollicitudin auctor mauris non
+            volutpat. Quisque in turpis at orci viverra hendrerit ac in mauris. Vestibulum convallis magna ac rutrum
+            fringilla. Phasellus tristique interdum euismod. Nam finibus tristique orci eget placerat. Curabitur porta
+            tincidunt lorem non ultrices. Vestibulum ac odio mollis, accumsan orci quis, consequat arcu.
+
+            <hr>
+
+        </p2>
+
+
+        <fieldset>
+            <legend>Dados da viagem</legend>
+            <label>Nome</label><br>               
+
+        <input type="texte" name="nome"><br><br>
+
+        <label>E-mail</label><br>
+        <input type="e-mail" required name="e-mail"><br><br>
+
+        <label>Data de ida</label><br>
+        <input type="date" name="dataIda"><br><br>
+
+        <label>Data de volta</label><br>
+        <input type="date" name="Datavolta"><br><br>
+
+        <label>Quantidade de pessoas</label><br>
+        <input type="number" name="qtdPessoas"><br><br>
+        </fieldset>
+        
+       
+        <fieldset>
+            <legend>Quais serviços deseja contratar?</legend>
+        <label>
+                            <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+        </label>
+        <label>
+                            <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+        </label>
+        <label>
+                            <br><input type="checkbox" name="veiculos" value="Veículos">Reserva de Veículos
+        </label>
+        </fieldset>
+        
+        <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+                 </label>
+                 <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                 </label>
+                 <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                 </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha o prazo para pagamento</legend>
+            <select name="prazoPagamento">
+                    <option value="avista">À vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x" selected>10x com juros</option>
+            </select>
+
+        </fieldset>
+
+        <label>Comentário</label>
+        <textarea rows="5" name="comentario"></textarea><br><br>
+
+
+        <button>Salvar</button>
+          
+        
+    </form>
+    </section>
+
+    <footer>
+
+        <p>Desenvolvido por Erika Nakamura</p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
